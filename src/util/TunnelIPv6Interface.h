@@ -40,7 +40,7 @@ class TunnelIPv6Interface : public nl::UnixSocket
 {
 
 public:
-	TunnelIPv6Interface(const std::string& interface_name = "", int mtu = 1280);
+	TunnelIPv6Interface(const std::string& interface_name = "", int mtu = 2047);
 
 	virtual ~TunnelIPv6Interface();
 
